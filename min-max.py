@@ -22,7 +22,7 @@ node_value = int(input("Enter node value : "))
 max_term = True
 
 print("The answer is : ", end = " ")
-answer = Minmax(current_depth, node_value, max_term, score, total_depth)
+answer = Minmax(0, 0, max_term, score, total_depth)
 print(answer)
 
 
