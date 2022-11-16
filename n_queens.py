@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input("Enter board size : "))
 col = set()
 pos_diag = set()
 neg_diag = set()
